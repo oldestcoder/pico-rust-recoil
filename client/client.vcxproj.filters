@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="bridge_port.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\game_data.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mouse_input.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recoil_blatant.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recoil_legit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\security.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings_manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\menu_globals.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\menu_render.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\menu_tabs.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="gui">
+      <UniqueIdentifier>{8f66b4d1-43d1-47bf-9248-1bf9e718157c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{ed3cad8f-47b4-4d95-834e-1abb7af6abb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{a01b3808-9869-4d07-b152-eafd57101084}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\api_hide.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_data.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mouse_input.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\recoil_blatant.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\recoil_legit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\security.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings_manager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\fa_solid_900.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\IconsFontAwesome5.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\logo_data.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\menu_globals.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\menu_render.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\menu_styles.hpp">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\menu_tabs.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
